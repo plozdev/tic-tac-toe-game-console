@@ -2,7 +2,7 @@
 
 ## Description
 
-This project allows two players to play Tic-Tac-Toe on a console interface.
+This project allows two players to play Tic-Tac-Toe, or a single player to play against a simple CPU opponent, all within a console interface.
 
 ## Prerequisites
 
@@ -12,12 +12,16 @@ This project allows two players to play Tic-Tac-Toe on a console interface.
 
 ## Usage
 
-1.  Compile the source code or Run the executable.
-2.  Press 's' to start the game.
-3.  Players take turns entering numbers from 1 to 9, corresponding to the Tic-Tac-Toe grid positions.
-4.  The game displays the board after each move.
-5.  The game announces the winner or a draw when the game ends.
-6.  The program asks if you want to play again.
+1.  Compile the source code or run the executable.
+2.  Upon execution, press 's' to start the game.
+3.  Choose game mode:
+    * '1' for Player vs CPU.
+    * '2' for Player vs Player.
+    * '3' to quit.
+4.  Players take turns entering numbers from 1 to 9, corresponding to the Tic-Tac-Toe grid positions.
+5.  The game displays the board after each move.
+6.  The game announces the winner or a draw when the game ends.
+7.  The program asks if you want to play again ('y' for yes, 'n' for no).
 
 ## Notes Regarding `conio.h`
 
@@ -28,5 +32,7 @@ This project allows two players to play Tic-Tac-Toe on a console interface.
 * Consider using more cross-platform methods for input and console clearing if you want to make your game more portable.
 
 ## Author
+
 @plozdev
+
 Have fun :>
